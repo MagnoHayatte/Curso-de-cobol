@@ -1,0 +1,91 @@
+Quando se trata de cobol sempre salvar em (.cpp) que se trata da extenção do arquivo.
+Segue exemplo de Logica abaixo.
+
+Escreva ( Informe Um numero ) - Para que o usuário possa colocar um numero.
+Leia ( Numero1 ) - para que o sistema leia o numero digitado pelo usuário.
+Escreva a variável exemplo:
+Soma = Numero + numero;
+
+Prática: 
+
+Escreva ( 1 )
+Leia ( 1 )
+Escreva ( 2 ) 
+Leia ( 2 ) 
+Var soma = numero1 + numero2;
+escreva (" o resultado da soma dos numeros informados é :" , soma);
+Finaliza o algoritimo.
+
+---------------------------------------------------------------------------------------------------------
+
+Comando de atribuição.
+
+= Permite armazenar valores;
+
+Exemplo.
+
+Idade = 28;
+A linha acima DECLARA UMA VARIÁVEL chamada idade que é do tipo ITEIRO e ATRIBUI o VALOR INICIAL dela como 28.
+
+Exemplo de algumas expreções: 
+
+Certo: x = 20;                  Errado x, y, t = 10
+Certo: C = b + c+ 1;            Errado: c + 1 = b + C;
+
+Cuidados: 
+O Simbolo Igual ( = ) é utilizado para atribuir ou passar o valor que estiver a direita ou passar o valor que estiver à direita para a variável que estiver na esquerda.
+
+Exemplo: 
+
+Real salário = 200;
+O valor armazenado ana variável salário é 200.
+
+Cuidados:
+O símbolo == é utilizado para comparação ente dois termos para saber se o valor armazenados em duas variáveis é igual, o retorno desta comparação é verdadeiro ou falso ( Tipo Lógico ).
+
+Exemplo: 
+
+Caracter nome1 = "Rodrigo";
+Caracter nome2 = "Curvelo"
+Nome1 == Nome2 o resultado sempre será uma comparação.
+
+Cuidados: 
+Olhando a diferença se usar =;
+
+Exemplo:
+
+Caracter nome1 = "Rodrigo";
+Caracter nome2 = "Curvelo"
+nome1 = nome2
+
+Acontece que, o valor da váriável nome1 passa a ser o mesmo da variável nome2.
+
+OU SEJA TEMOS QUE RESOLVER A EXPRESSÃO E DEPOIS ATRIBUIR OS VALORES.
+
+COMANDOS DE ENTRADA E SAIDA
+
+Entrda de dados: 
+
+Para que o algoritimo possa RECEBER OS VALORES que necessitam como ENTRADA, iremos utilizar o comando dee ENTRADA DE DADOS chamado de LEIA, que simplesmente atribui um VALOR LIDO DA ENTRADA PADRÃO ( geralmente o teclado) para a variável.
+
+Exemplo: 
+
+Leia (x);
+Leia (nota);
+Leia (salário);
+
+Blocos
+Um bloco tem como finalidade DETERMINAR A EXECUÇÃO de uma tarefa a uma parte especifica do código, para representar o inicio de um bloco utilizaremos { e para representar o final de um bloco utilizaremos }.
+
+Exemplo: 
+
+{
+Inteiro numero = 10;
+escreva( Digitie o valor do numero)
+Leia qual numero;
+}
+
+
+
+
+
