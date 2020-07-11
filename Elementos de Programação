@@ -1,0 +1,87 @@
+Manipulação de Arrays
+
+Indice posição 0 preimeiro elemento.
+Indice posição 1 segundo elemento.
+Indice posição 2 Terceiro elemento.
+Indice posição 3 Quarto elemento.
+
+sempre a priemeira posição será a posição 0 do vetor.
+
+
+using name space :: 
+
+int main [] {
+          
+    int vetor[4];
+
+Ou se quiser fazer um vetor de Float:
+
+int main [] {
+
+     float notas [4];
+     float soma = 0, media;
+     
+     for (int x = 0; x < 4; x++) {
+         cout << "Informe a priemira nota:";
+         cin >> nota[x];
+         soma = soma+ nota(x);
+     }
+     
+     media = soma /4;
+
+     for (int x = 0; x < 4; x++) {
+         cout << "\nNota " << X+1 << " : " << Nota [x];
+     }
+     
+     cout << "\nMedia: " << media;
+
+cout << "Nota: " << nota [0];
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Array multidimencional ( Matriz )
+
+Teste matriz
+
+int main [] {
+
+     float matriz [4][4];
+     float soma = 0, media;
+     
+     for (int linha = 0; linha < 4; linha++){
+         out << "\linha;
+         for ( int coluna = 0; coluna < 4; coluna++){
+         cout << "\n" << lina  " | " << coluna;
+         cout << "Informe o valor";
+         cin >> matriz[Linha][coluna];
+         out << matriz[Linha][coluna] ,, "\t";
+     }
+}
+
+
+Teste matriz
+
+int main [] {
+     
+     inrta Tl = 4, Tc = 4; - se For preciso mudar o tamanho da linha ou de coluna é só alterar os valores neste trcho.
+     
+     float matriz [Tl][TC];
+     float soma = 0, media;
+     
+     for (int linha = 0; linha < TL; linha++){
+         out << "\linha;
+         for ( int coluna = 0; coluna < Tc; coluna++){
+         cout << "\n" << lina  " | " << coluna;
+         cout << "Informe o valor";
+         cin >> matriz[Linha][coluna];
+         soma = soma + matriz[Linha][coluna];
+         out << matriz[Linha][coluna] ,, "\t";
+     }
+}
+
+
+
+cout << "\soma: " << soma; 
+
+
+
