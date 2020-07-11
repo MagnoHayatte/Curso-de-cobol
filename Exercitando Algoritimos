@@ -1,1 +1,12 @@
-bla bla bla Alencar é gay
+Exercício de Fixação.
+
+Logico A;
+Real B, C;
+Inteiro D;
+
+A = B == C; -É uma forma de perguntar ao sistema se A e B são iguais á C. sendo que A é lógico e B é real. A linha está correta.
+D = B; -Aqui eu estou afirmando que D é igual a B sendo que B é um numero real e D é um numero Inteiro. essa linha Gera erro
+C + 1 = B + C; -Linha correta.
+C = C + 1; -linha errada gera erro
+C e B = 3,5; -
+
