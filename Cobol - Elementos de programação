@@ -1,0 +1,80 @@
+Arrays -
+
+Vetores e Matrizes.
+
+
+#include <iostream> (Isso é uma stream começa com IO de Imput e output)
+
+using namespace std; (Std de standard)
+System("pause") para pausar 
+
+double decimal=[5,2225252522]; //Numerais decimais Ex: 2,555555555.
+float decimal2=[5.2]; //converte decimais com menor precisão com separador decimal com ponto .Ex: 2.5
+string nome='Magno Hayatte Mendonça casado com Joyce Lorrayne Ferreira dos Santos'; // recebe texto que será ifnromado entre aspas "".
+printf("decimal");
+printf("decimal2");
+printf("string");
+printf("vidas");
+printf("letra");
+printf("vivo");
+------------------------------------------------------------------------------------------------------------
+
+Segue sitema apresentando o minimo de erro:
+
+#include <iostream>
+// fontes de c++ (https://www.youtube.com/watch?v=o44fNZn4zNw&list=PLx4x_zx8csUjczg1qPHavU1vw1IkBcm40&index=5)
+using namespace std; 
+
+int main(){
+
+printf("Olá, Magno Hayatte!\n");
+
+printf("\nMeu nome é Joyce Lorrayne, a sua IA em fase de crescimento!\n");
+
+printf("\nEssa comunicação é uma linguagem em C++ ou se preferir C Plus Plus...\n");
+
+printf("\nPreencha as informações abaixo!\n");
+//use as barras para adicionar um comentário isso não será compilado.
+// ou /* e para fechar em outra linha */ 
+
+int vidas=0; //podera receber numeros inteiros.
+char letra='M'; //Ex: 'B'.
+char letras [20];// assim passa a ser vetor com limite de 20 caracteres
+bool vivo=true; // recebe informações do tipo verdadeira, ou seja true=verdadeiro e false=falso Ex: 1 verdadeiro e 0  falso.
+double decimal=5.2;
+float decimal2=5.25;
+string nome="Jogador Magno";
+
+cout << "\nDigite o numero de vidas que deseja: ";
+cin >> vidas;
+cout << "\nDigite sua letra favorita: ";
+cin >> letra;
+cout << "\nDinheiro: ";
+cin >> decimal;
+cout << "\nDigite seu nome: ";
+cin >> nome;
+cout << "\nDigite seu bonus: ";
+cin >> decimal2;
+cout << "\nQuer deichar uma sugestão?\n ";
+cin >> letras;
+
+cout << vidas << "\nVidas: ";
+cout << letra << "\nLetra: ";
+cout << vivo << "\nVivo: ";
+cout << decimal << "\nDinheiro: ";
+cout << decimal2 << "\nBonus: ";
+cout << nome << "\nJogador: ";
+
+
+//Podemos coloccar um cout para impirmir tudo ex: cout << vidas << "\n" << letra << "\n" << vivo << "\n" << decimal << "\n" << decimal2 << "\n" << nome << "\n";
+return 0;
+}
+
+
+
+
+
+
+
+
+
